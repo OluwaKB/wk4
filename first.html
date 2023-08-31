@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first tailwind class</title>
+    <link rel="stylesheet" href="./friday.css">
+</head>
+<body>
+    <nav>
+        <ul class="flex justify-between sm:flex-row h-screen sm:h-32 bg-orange-900 sm:w-[100%] w-[30%] items-center text-[#ff0] capitalize text-[30px] md:bg-yellow-600 lg:bg-gray-700">
+            <li>num1</li>
+            <li>num2</li>
+            <li>num3</li> 
+            <li>num4</li>
+            <li>num5</li>
+        </ul>
+    </nav>
+
+    
+        <div class="bg-[url('https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] h-[300px] w-[300px] bg-cover m-auto border-[25px] border-solid border-y-blue-900 border-x-yellow-900"></div>
+
+    <main class="grid md:grid-cols-3 grid-cols-1 md:grid-rows-[200px_200px] grid-rows-[repeat(4_200px)] gap-4">
+        <div class="bg-black rounded-xl md:row-span-2"></div>
+        <div class="bg-black rounded-xl "></div>
+        <div class="bg-black rounded-tl-[20px]"></div>
+        <div class="bg-black rounded-xl md:col-span-2"></div>
+    </main>
+    
+</body>
+</html>
